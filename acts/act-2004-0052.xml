@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="Taxation (Working for Families) Act 2004">
+    <meta>
+      <identification source="#arch">
+        <FRBRWork>
+          <FRBRthis value="/akn/nz/act/2004/52"/>
+          <FRBRuri value="/akn/nz/act/2004/52"/>
+          <FRBRdate date="2004-06-21" name="assent"/>
+          <FRBRauthor href="#nz-parliament"/>
+          <FRBRcountry value="nz"/>
+          <FRBRnumber value="52"/>
+          <FRBRname value="act"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/nz/act/2004/52/eng@2004-06-21"/>
+          <FRBRuri value="/akn/nz/act/2004/52/eng@2004-06-21"/>
+          <FRBRdate date="2004-06-21" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/nz/act/2004/52/eng@2004-06-21/main.xml"/>
+          <FRBRuri value="/akn/nz/act/2004/52/eng@2004-06-21/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="nz-parliament" href="https://www.parliament.nz" showAs="New Zealand Parliament"/>
+        <TLCOrganization eId="pco" href="https://www.legislation.govt.nz" showAs="Parliamentary Counsel Office"/>
+      </references>
+    </meta>
+    <preface>
+      <longTitle>
+        <p>An Act to assist families through the tax system</p>
+      </longTitle>
+    </preface>
+    <body/>
+  </act>
+</akomaNtoso>

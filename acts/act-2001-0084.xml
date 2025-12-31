@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="New Zealand Superannuation and Retirement Income Act 2001">
+    <meta>
+      <identification source="#arch">
+        <FRBRWork>
+          <FRBRthis value="/akn/nz/act/2001/84"/>
+          <FRBRuri value="/akn/nz/act/2001/84"/>
+          <FRBRdate date="2001-10-11" name="assent"/>
+          <FRBRauthor href="#nz-parliament"/>
+          <FRBRcountry value="nz"/>
+          <FRBRnumber value="84"/>
+          <FRBRname value="act"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/nz/act/2001/84/eng@2001-10-11"/>
+          <FRBRuri value="/akn/nz/act/2001/84/eng@2001-10-11"/>
+          <FRBRdate date="2001-10-11" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/nz/act/2001/84/eng@2001-10-11/main.xml"/>
+          <FRBRuri value="/akn/nz/act/2001/84/eng@2001-10-11/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="nz-parliament" href="https://www.parliament.nz" showAs="New Zealand Parliament"/>
+        <TLCOrganization eId="pco" href="https://www.legislation.govt.nz" showAs="Parliamentary Counsel Office"/>
+      </references>
+    </meta>
+    <preface>
+      <longTitle>
+        <p>An Act to provide for New Zealand superannuation</p>
+      </longTitle>
+    </preface>
+    <body/>
+  </act>
+</akomaNtoso>
